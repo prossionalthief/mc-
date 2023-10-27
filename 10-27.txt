@@ -1,0 +1,786 @@
+Details:
+        Caused by 0: java.lang.reflect.InvocationTargetException
+                at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source) ~[?:?] {}
+                at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?] {}
+                at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?] {}
+                at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.1.3.jar%23221!/:?] {}
+                at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+                at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {}
+        Caused by 1: java.lang.NoClassDefFoundError: net/minecraft/client/gui/screens/inventory/BookEditScreen
+                at io.github.reserveword.imblocker.ForgeConfig$Client.<init>(ForgeConfig.java:141) ~[IMBlocker_4.0.5+1.19.4.jar%23199!/:4.0.5] {re:classloading}
+                at net.minecraftforge.common.ForgeConfigSpec$Builder.configure(ForgeConfigSpec.java:613) ~[forge-1.20.1-47.1.3-universal.jar%23224!/:?] {re:classloading}
+                at io.github.reserveword.imblocker.ForgeConfig.<clinit>(ForgeConfig.java:208) ~[IMBlocker_4.0.5+1.19.4.jar%23199!/:4.0.5] {re:classloading}
+                at io.github.reserveword.imblocker.IMBlocker.<init>(IMBlocker.java:18) ~[IMBlocker_4.0.5+1.19.4.jar%23199!/:4.0.5] {re:classloading}
+                at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source) ~[?:?] {}
+                at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?] {}
+                at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?] {}
+                at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.1.3.jar%23221!/:?] {}
+                at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+                at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {}
+        Mod File: /home/container/mods/IMBlocker_4.0.5+1.19.4.jar
+        Failure message: IMBlocker (imblocker) has failed to load correctly
+                java.lang.reflect.InvocationTargetException: null
+        Mod Version: 4.0.5
+        Mod Issue URL: https://github.com/reserveword/IMBlocker/issues
+        Exception message: java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.BookEditScreen
+Stacktrace:
+        at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?] {}
+        at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+        at io.github.reserveword.imblocker.ForgeConfig$Client.<init>(ForgeConfig.java:141) ~[IMBlocker_4.0.5+1.19.4.jar%23199!/:4.0.5] {re:classloading}
+        at net.minecraftforge.common.ForgeConfigSpec$Builder.configure(ForgeConfigSpec.java:613) ~[forge-1.20.1-47.1.3-universal.jar%23224!/:?] {re:classloading}
+        at io.github.reserveword.imblocker.ForgeConfig.<clinit>(ForgeConfig.java:208) ~[IMBlocker_4.0.5+1.19.4.jar%23199!/:4.0.5] {re:classloading}
+        at io.github.reserveword.imblocker.IMBlocker.<init>(IMBlocker.java:18) ~[IMBlocker_4.0.5+1.19.4.jar%23199!/:4.0.5] {re:classloading}
+        at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source) ~[?:?] {}
+        at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?] {}
+        at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?] {}
+        at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.1.3.jar%23221!/:?] {}
+        at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {}
+-- System Details --
+Details:
+        Minecraft Version: 1.20.1
+        Minecraft Version ID: 1.20.1
+        Operating System: Linux (amd64) version 5.15.0-78-generic
+        Java Version: 18.0.2.1, Azul Systems, Inc.
+        Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
+        Memory: 279844864 bytes (266 MiB) / 746586112 bytes (712 MiB) up to 8589934592 bytes (8192 MiB)
+        CPUs: 4
+        Processor Vendor: GenuineIntel
+        Processor Name: Intel(R) Xeon(R) Gold 6146 CPU @ 3.20GHz
+        Identifier: Intel64 Family 6 Model 85 Stepping 4
+        Microarchitecture: Skylake (Server)
+        Frequency (GHz): 3.20
+        Number of physical packages: 2
+        Number of physical CPUs: 24
+        Number of logical CPUs: 48
+        Graphics card #0 name: unknown
+        Graphics card #0 vendor: unknown
+        Graphics card #0 VRAM (MB): 0.00
+        Graphics card #0 deviceId: unknown
+        Graphics card #0 versionInfo: unknown
+        Virtual memory max (MB): 145140.41
+        Virtual memory used (MB): 208732.84
+        Swap memory total (MB): 16383.99
+        Swap memory used (MB): 181.50
+        JVM Flags: 2 total; -Xms128M -Xmx8192M
+        ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+        ModLauncher launch target: forgeserver
+        ModLauncher naming: srg
+        ModLauncher services: 
+                mixin-0.8.5.jar mixin PLUGINSERVICE 
+                eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+                fmlloader-1.20.1-47.1.3.jar slf4jfixer PLUGINSERVICE 
+                fmlloader-1.20.1-47.1.3.jar object_holder_definalize PLUGINSERVICE 
+                fmlloader-1.20.1-47.1.3.jar runtime_enum_extender PLUGINSERVICE 
+                fmlloader-1.20.1-47.1.3.jar capability_token_subclass PLUGINSERVICE 
+                accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+                fmlloader-1.20.1-47.1.3.jar runtimedistcleaner PLUGINSERVICE 
+                modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+                modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+        FML Language Providers: 
+                minecraft@1.0
+                javafml@null
+                kotlinforforge@4.3.0
+                lowcodefml@null
+        Mod List: 
+                fallingtrees-1.19.3-1.20.1+0.5.3-beta.jar         |Panda's Falling Trees         |fallingtrees                  |1.19.3-1.20.1+0.5.3-|COMMON_SET|Manifest: NOSIGNATURE
+                Kiwi-1.20.1-forge-11.0.0.jar                      |Kiwi Library                  |kiwi                          |11.0.0              |COMMON_SET|Manifest: NOSIGNATURE
+                geckolib-forge-1.20.1-4.2.1.jar                   |GeckoLib 4                    |geckolib                      |4.2.1               |COMMON_SET|Manifest: NOSIGNATURE
+                sophisticatedstorage-1.20.1-0.8.43.558.jar        |Sophisticated Storage         |sophisticatedstorage          |1.20.1-0.8.43.558   |COMMON_SET|Manifest: NOSIGNATURE
+                jei-1.20.1-forge-15.2.0.23.jar                    |Just Enough Items             |jei                           |15.2.0.23           |COMMON_SET|Manifest: NOSIGNATURE
+                luggage-1.20-1.6.2.jar                            |Luggage                       |luggage                       |1.20-1.6.2          |COMMON_SET|Manifest: NOSIGNATURE
+                immersive_aircraft-0.5.1+1.20.1-forge.jar         |Immersive Aircraft            |immersive_aircraft            |0.5.1+1.20.1        |COMMON_SET|Manifest: NOSIGNATURE
+                sophisticatedcore-1.20.1-0.5.81.378.jar           |Sophisticated Core            |sophisticatedcore             |1.20.1-0.5.81.378   |COMMON_SET|Manifest: NOSIGNATURE
+                [铷] rubidium-0.6.5.jar                            |Rubidium                      |rubidium                      |0.6.5               |COMMON_SET|Manifest: NOSIGNATURE
+                waystones-forge-1.20-14.0.1.jar                   |Waystones                     |waystones                     |14.0.1              |COMMON_SET|Manifest: NOSIGNATURE
+                [叶间穿行 🌳] PassableFoliage-1.20.1-forge-8.0.0.jar  |Passable Foliage              |passablefoliage               |8.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+                [Xaero的世界地图] XaerosWorldMap_1.30.6_Forge_1.20.jar |Xaero's World Map             |xaeroworldmap                 |1.30.6              |COMMON_SET|Manifest: NOSIGNATURE
+                citadel-2.4.2-1.20.1.jar                          |Citadel                       |citadel                       |2.4.2               |COMMON_SET|Manifest: NOSIGNATURE
+                [Alex 的生物] alexsmobs-1.22.5.jar                   |Alex's Mobs                   |alexsmobs                     |1.22.5              |COMMON_SET|Manifest: NOSIGNATURE
+                mixinextras-forge-0.2.0-beta.7.jar                |MixinExtras                   |mixinextras                   |0.2.0-beta.7        |COMMON_SET|Manifest: NOSIGNATURE
+                sophisticatedbackpacks-1.20.1-3.18.56.890.jar     |Sophisticated Backpacks       |sophisticatedbackpacks        |1.20.1-3.18.56.890  |COMMON_SET|Manifest: NOSIGNATURE
+                [遗物] relics-1.20.1-0.4.8.3.jar                    |Relics                        |relics                        |0.4.8.3             |COMMON_SET|Manifest: NOSIGNATURE
+                [失落废墟] Rex's-AdditionalStructures-1.20.x-(v.4.1.2)|Additional Structures         |additionalstructures          |4.1.2               |COMMON_SET|Manifest: NOSIGNATURE
+                balm-forge-1.20-7.0.4.jar                         |Balm                          |balm                          |7.0.4               |COMMON_SET|Manifest: NOSIGNATURE
+                extra_details-0.1.1+1.20-1.20.1-beta.jar          |Panda's Extra Details         |extra_details                 |0.1.1+1.20-1.20.1-be|COMMON_SET|Manifest: NOSIGNATURE
+                cloth-config-11.1.106-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.106            |COMMON_SET|Manifest: NOSIGNATURE
+                3dskinlayers-forge-1.5.4-mc1.20.1.jar             |3dSkinLayers                  |skinlayers3d                  |1.5.4               |ERROR     |Manifest: NOSIGNATURE
+                forge-1.20.1-47.1.3-universal.jar                 |Forge                         |forge                         |47.1.3              |COMMON_SET|Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+                ctov-3.3.2.jar                                    |ChoiceTheorem's Overhauled Vil|ctov                          |3.3.2               |COMMON_SET|Manifest: NOSIGNATURE
+                konkrete_forge_1.6.1-2_MC_1.20.jar                |Konkrete                      |konkrete                      |1.6.1               |COMMON_SET|Manifest: NOSIGNATURE
+                geophilic-v2.0.0-mc1.20u1.20.1.jar                |Geophilic                     |geophilic                     |2.0.0-mc1.20u1.20.1 |COMMON_SET|Manifest: NOSIGNATURE
+                server-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |COMMON_SET|Manifest: NOSIGNATURE
+                [农夫乐事] FarmersDelight-1.20.1-1.2.2a.jar           |Farmer's Delight              |farmersdelight                |1.20.1-1.2.2a       |COMMON_SET|Manifest: NOSIGNATURE
+                libIPN-forge-1.20-3.0.2.jar                       |libIPN                        |libipn                        |3.0.2               |COMMON_SET|Manifest: NOSIGNATURE
+                [结构变体] repurposed_structures-7.0.0+1.20-forge.jar |Repurposed Structures         |repurposed_structures         |7.0.0+1.20-forge    |COMMON_SET|Manifest: NOSIGNATURE
+                TerraBlender-forge-1.20.1-3.0.0.169.jar           |TerraBlender                  |terrablender                  |3.0.0.169           |COMMON_SET|Manifest: NOSIGNATURE
+                moonlight-1.20-2.5.12-forge.jar                   |Moonlight Library             |moonlight                     |1.20-2.5.12         |COMMON_SET|Manifest: NOSIGNATURE
+                AmbientSounds_FORGE_v5.2.19_mc1.20.jar            |AmbientSounds                 |ambientsounds                 |5.2.19              |COMMON_SET|Manifest: NOSIGNATURE
+                [物品物理掉落] ItemPhysicLite_FORGE_v1.6.1_mc1.20.jar   |ItemPhysicLite                |itemphysiclite                |1.6.1               |ERROR     |Manifest: NOSIGNATURE
+                [鼠标手势] MouseTweaks-forge-mc1.20-2.25.jar          |Mouse Tweaks                  |mousetweaks                   |2.25                |COMMON_SET|Manifest: NOSIGNATURE
+                Female-Gender-Mod-forge-1.20.1-3.0.1.jar          |Wildfire's Female Gender Mod  |wildfire_gender               |1.20.1-3.0.1        |COMMON_SET|Manifest: NOSIGNATURE
+                [超多生物群系] BiomesOPlenty-1.20.1-18.0.0.592.jar      |Biomes O' Plenty              |biomesoplenty                 |18.0.0.592          |COMMON_SET|Manifest: NOSIGNATURE
+                Jade-1.20-forge-11.3.0.jar                        |Jade                          |jade                          |11.3.0              |COMMON_SET|Manifest: NOSIGNATURE
+                CreativeCore_FORGE_v2.10.31_mc1.20.1.jar          |CreativeCore                  |creativecore                  |2.10.31             |COMMON_SET|Manifest: NOSIGNATURE
+                resourcefulconfig-forge-1.20-2.0.0.jar            |Resourcefulconfig             |resourcefulconfig             |2.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+                kffmod-4.3.0.jar                                  |Kotlin For Forge              |kotlinforforge                |4.3.0               |COMMON_SET|Manifest: NOSIGNATURE
+                curios-forge-5.2.0-beta.3+1.20.1.jar              |Curios API                    |curios                        |5.2.0-beta.3+1.20.1 |COMMON_SET|Manifest: NOSIGNATURE
+                [更多动画] notenoughanimations-forge-1.6.4-mc1.20.jar |NotEnoughAnimations Mod       |notenoughanimations           |1.6.4               |ERROR     |Manifest: NOSIGNATURE
+                flywheel-forge-1.20-0.6.9-4.jar                   |Flywheel                      |flywheel                      |0.6.9-4             |COMMON_SET|Manifest: NOSIGNATURE
+                create-1.20.1-0.5.1.d.jar                         |Create                        |create                        |0.5.1.d             |COMMON_SET|Manifest: NOSIGNATURE
+                [帕秋莉手册] Patchouli-1.20.1-81-FORGE.jar             |Patchouli                     |patchouli                     |1.20.1-81-FORGE     |COMMON_SET|Manifest: NOSIGNATURE
+                oculus-mc1.20-1.6.4.jar                           |Oculus                        |oculus                        |1.6.4               |ERROR     |Manifest: NOSIGNATURE
+                [Xaero的小地图] Xaeros_Minimap_23.5.0_Forge_1.20.jar  |Xaero's Minimap               |xaerominimap                  |23.5.0              |COMMON_SET|Manifest: NOSIGNATURE
+                Croptopia-1.20.1-FORGE-2.3.2.jar                  |Croptopia                     |croptopia                     |2.3.2               |COMMON_SET|Manifest: NOSIGNATURE
+                ctov-croptopia-compat-2.0.jar                     |CTOV - Croptopia compat       |mr_ctov_croptopiacompat       |2.0                 |COMMON_SET|Manifest: NOSIGNATURE
+                [高级下界合金] advancednetherite-forge-2.0.2-1.20.1.jar |Advanced Netherite            |advancednetherite             |2.0.2               |COMMON_SET|Manifest: NOSIGNATURE
+                invhud.forge.1.20.1-3.4.15.jar                    |Inventory HUD+(Forge edition) |inventoryhud                  |3.4.15              |COMMON_SET|Manifest: NOSIGNATURE
+                fancymenu_forge_2.14.9_MC_1.20.1.jar              |FancyMenu                     |fancymenu                     |2.14.9              |COMMON_SET|Manifest: NOSIGNATURE
+                resourcefullib-forge-1.20-2.0.6.jar               |Resourceful Lib               |resourcefullib                |2.0.6               |COMMON_SET|Manifest: NOSIGNATURE
+                [一键背包整理Next] InventoryProfilesNext-forge-1.20-1.10|Inventory Profiles Next       |inventoryprofilesnext         |1.10.5              |COMMON_SET|Manifest: NOSIGNATURE
+                architectury-9.1.10-forge.jar                     |Architectury                  |architectury                  |9.1.10              |COMMON_SET|Manifest: NOSIGNATURE
+                [苹果皮] appleskin-forge-mc1.20.1-2.5.0.jar          |AppleSkin                     |appleskin                     |2.5.0+mc1.20.1      |COMMON_SET|Manifest: NOSIGNATURE
+                [苦力怕改革／苦力怕革新] creeperoverhaul-3.0.1-forge.jar     |Creeper Overhaul              |creeperoverhaul               |3.0.1               |COMMON_SET|Manifest: NOSIGNATURE
+                [铁氧体磁芯] ferritecore-6.0.0-forge.jar               |Ferrite Core                  |ferritecore                   |6.0.0               |COMMON_SET|Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+                [高级指南针] advancedcompass.forge.1.20.1-1.2.15.jar   |Advanced Compass              |advancedcompass               |1.2.15              |COMMON_SET|Manifest: NOSIGNATURE
+                Towns-and-Towers-1.11-Fabric+Forge.jar            |Towns and Towers              |t_and_t                       |0.0NONE             |COMMON_SET|Manifest: NOSIGNATURE
+                IMBlocker_4.0.5+1.19.4.jar                        |IMBlocker                     |imblocker                     |4.0.5               |ERROR     |Manifest: NOSIGNATURE
+                cristellib-forge-1.1.0.jar                        |Cristel Lib                   |cristellib                    |1.1.0               |COMMON_SET|Manifest: NOSIGNATURE
+                BetterAdvancements-1.20.1-0.3.2.161.jar           |Better Advancements           |betteradvancements            |0.3.2.161           |COMMON_SET|Manifest: NOSIGNATURE
+        Crash Report UUID: 56bdb7e7-a934-49f3-a5e2-ebd7c95d0441
+        FML: 47.1
+        Forge: net.minecraftforge:47.1.3[21:17:02] [main/ERROR] [minecraft/Main]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+        3dSkinLayers (skinlayers3d) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER,
+        ItemPhysicLite (itemphysiclite) has failed to load correctly
+§7java.lang.ExceptionInInitializerError: null,
+        NotEnoughAnimations Mod (notenoughanimations) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER,
+        Oculus (oculus) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER,
+        IMBlocker (imblocker) has failed to load correctly
+§7java.lang.reflect.InvocationTargetException: null
+]
+        at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:246) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at java.util.Optional.ifPresent(Unknown Source) ~[?:?] {}
+        at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at java.lang.Iterable.forEach(Unknown Source) ~[?:?] {re:mixin}
+        at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.20.1-47.1.3-universal.jar%23224!/:?] {re:classloading}
+        at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23219!/:?] {re:mixin,re:classloading,pl:mixin:A}
+        at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?] {}
+        at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {}
+        at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:?] {}
+        at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:?] {}
+        at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:?] {}
+        at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+[GameWorld]: 服务器状态: 离线...
+[GameWorld]: ---------- 检测到服务器意外奔溃的情况，以下是奔溃相关信息! ----------
+[GameWorld]: 请查看崩溃前输出的日志信息。
+[GameWorld]: 是否为内存溢出导致的奔溃: 否
+[GameWorld]: ---------- 检测到服务器意外奔溃的情况，以下是奔溃相关信息! ----------
+[GameWorld]: 正在检查服务器的磁盘使用情况，请稍等...
+[GameWorld]: 正在更新最新的进程配置，请稍等...
+[GameWorld]: 正在检查执行文件的权限，请稍等...
+[GameWorld]: 服务器状态: 启动中...
+[GameWorld]: 正在拉取所使用的Docker镜像内容，请稍等...
+[GameWorld]: Docker镜像内容拉取完毕，即将开始启动...
+>> 您所使用的是Azul-Zulu的Java镜像,具体版本信息如下: 
+openjdk version "18.0.2.1" 2022-08-18
+OpenJDK Runtime Environment Zulu18.32+13-CA (build 18.0.2.1+1)
+OpenJDK 64-Bit Server VM Zulu18.32+13-CA (build 18.0.2.1+1, mixed mode, sharing)
+[1] Java镜像加载完毕!
+[2] 设置服务器启动内存: 8192 MB
+[3] 设置启动核心: server.jar
+[4] 服务器启动参数: java -Xms128M -Xmx8192M -Dfile.encoding=UTF-8 -Dterminal.jline=false -Dfml.queryResult=confirm -Duser.timezone=Asia/Shanghai -Dlog4j2.formatMsgNoLookups=true @unix_args.txt nogui
+[5] 服务器开始启动!
+[21:17:07] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.1.3, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[21:17:07] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 18.0.2.1 by Azul Systems, Inc.; OS Linux arch amd64 version 5.15.0-78-generic
+[21:17:08] [main/INFO] [ne.mi.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[21:17:08] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/container/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[21:17:08] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/container/libraries/net/minecraftforge/fmlcore/1.20.1-47.1.3/fmlcore-1.20.1-47.1.3.jar is missing mods.toml file
+[21:17:08] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/container/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.1.3/javafmllanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[21:17:08] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/container/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.1.3/lowcodelanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[21:17:08] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/container/libraries/net/minecraftforge/mclanguage/1.20.1-47.1.3/mclanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[21:17:08] [main/INFO] [ne.mi.fm.lo.mo.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
+[21:17:11] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[21:17:11] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[21:17:11] [main/WARN] [mixin/]: Reference map 'fallingtrees-forge-refmap.json' for fallingtrees.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:17:11] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 31 options available, 3 override(s) found
+[21:17:11] [main/WARN] [mixin/]: Reference map 'extra_details-forge-refmap.json' for extra_details.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:17:11] [main/WARN] [mixin/]: Reference map 'cristellib-common-refmap.json' for cristellib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:17:11] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:17:20] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[21:17:20] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id fallingtrees:break_tree_packet
+[21:17:20] [modloading-worker-0/INFO] [Kiwi/Init]: Processing 4 KiwiModule annotations
+[21:17:20] [modloading-worker-0/ERROR] [ne.mi.fm.lo.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[21:17:20] [modloading-worker-0/ERROR] [ne.mi.fm.ja.FMLModContainer/LOADING]: Failed to create mod instance. ModID: skinlayers3d, class dev.tr7zw.skinlayers.SkinLayersMod
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+        at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:1.0] {}
+        at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+        at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+        at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?] {re:mixin}
+        at java.lang.Class.privateGetDeclaredConstructors(Unknown Source) ~[?:?] {re:mixin}
+        at java.lang.Class.getConstructor0(Unknown Source) ~[?:?] {re:mixin}
+        at java.lang.Class.getDeclaredConstructor(Unknown Source) ~[?:?] {re:mixin}
+        at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.1.3.jar%23221!/:?] {}
+        at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {}
+[21:17:20] [modloading-worker-0/INFO] [ne.mi.co.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.3, for MC 1.20.1 with MCP 20230612.114412
+[21:17:20] [modloading-worker-0/INFO] [ne.mi.co.MinecraftForge/FORGE]: MinecraftForge v47.1.3 Initialized
+[21:17:20] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]: [KONKRETE] Successfully initialized!
+[21:17:20] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[21:17:21] [modloading-worker-0/ERROR] [ne.mi.fm.lo.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[21:17:21] [modloading-worker-0/ERROR] [ne.mi.fm.ja.FMLModContainer/LOADING]: Failed to create mod instance. ModID: itemphysiclite, class team.creative.itemphysiclite.ItemPhysicLite
+java.lang.ExceptionInInitializerError: null
+        at jdk.internal.misc.Unsafe.ensureClassInitialized0(Native Method) ~[?:?] {}
+        at jdk.internal.misc.Unsafe.ensureClassInitialized(Unknown Source) ~[?:?] {}
+        at jdk.internal.reflect.MethodHandleAccessorFactory.ensureClassInitialized(Unknown Source) ~[?:?] {}
+        at jdk.internal.reflect.MethodHandleAccessorFactory.newConstructorAccessor(Unknown Source) ~[?:?] {}
+        at jdk.internal.reflect.ReflectionFactory.newConstructorAccessor(Unknown Source) ~[?:?] {}
+        at java.lang.reflect.Constructor.acquireConstructorAccessor(Unknown Source) ~[?:?] {}
+        at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?] {}
+        at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?] {}
+        at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.1.3.jar%23221!/:?] {}
+        at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {}
+Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+        at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:1.0] {}
+        at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+        at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+        at team.creative.itemphysiclite.ItemPhysicLite.<clinit>(ItemPhysicLite.java:39) ~[%5B物品物理掉落%5D%20ItemPhysicLite_FORGE_v1.6.1_mc1.20.jar%23169!/:1.6.1] {re:classloading}
+        ... 17 more
+[Mouse Tweaks] Disabled because not running on the client.
+[21:17:21] [modloading-worker-0/ERROR] [ne.mi.fm.lo.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[21:17:21] [modloading-worker-0/ERROR] [ne.mi.fm.ja.FMLModContainer/LOADING]: Failed to create mod instance. ModID: notenoughanimations, class dev.tr7zw.notenoughanimations.NEAnimationsModForge
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+        at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:1.0] {}
+        at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+        at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+        at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?] {re:mixin}
+        at java.lang.Class.privateGetDeclaredConstructors(Unknown Source) ~[?:?] {re:mixin}
+        at java.lang.Class.getConstructor0(Unknown Source) ~[?:?] {re:mixin}
+        at java.lang.Class.getDeclaredConstructor(Unknown Source) ~[?:?] {re:mixin}
+        at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.1.3.jar%23221!/:?] {}
+        at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {}
+[21:17:21] [modloading-worker-0/INFO] [libIPN/]: [libIPN] libIPN - init in Kotlin
+[21:17:21] [modloading-worker-0/INFO] [th.ko.te.KotlinForForge/]: Kotlin For Forge Enabled!
+[21:17:21] [modloading-worker-0/ERROR] [ne.mi.fm.lo.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[21:17:21] [modloading-worker-0/ERROR] [ne.mi.fm.ja.FMLModContainer/LOADING]: Failed to create mod instance. ModID: oculus, class net.coderbot.iris.Iris
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+        at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:1.0] {}
+        at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+        at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+        at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?] {re:mixin}
+        at java.lang.Class.privateGetDeclaredConstructors(Unknown Source) ~[?:?] {re:mixin}
+        at java.lang.Class.getConstructor0(Unknown Source) ~[?:?] {re:mixin}
+        at java.lang.Class.getDeclaredConstructor(Unknown Source) ~[?:?] {re:mixin}
+        at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.1.3.jar%23221!/:?] {}
+        at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {}
+[21:17:21] [modloading-worker-0/INFO] [co.au.ad.AdvancedNetherite/]: Hello world!
+[21:17:21] [modloading-worker-0/INFO] [fancymenu/FancyMenu/]: [FANCYMENU] Loading v2.14.9 in server-side mode!
+[21:17:21] [modloading-worker-0/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
+[21:17:21] [modloading-worker-0/ERROR] [ne.mi.fm.ja.FMLModContainer/LOADING]: Failed to create mod instance. ModID: imblocker, class io.github.reserveword.imblocker.IMBlocker
+java.lang.reflect.InvocationTargetException: null
+        at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source) ~[?:?] {}
+        at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?] {}
+        at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?] {}
+        at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.1.3.jar%23221!/:?] {}
+        at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {}
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/gui/screens/inventory/BookEditScreen
+        at io.github.reserveword.imblocker.ForgeConfig$Client.<init>(ForgeConfig.java:141) ~[IMBlocker_4.0.5+1.19.4.jar%23199!/:4.0.5] {re:classloading}
+        at net.minecraftforge.common.ForgeConfigSpec$Builder.configure(ForgeConfigSpec.java:613) ~[forge-1.20.1-47.1.3-universal.jar%23224!/:?] {re:classloading}
+        at io.github.reserveword.imblocker.ForgeConfig.<clinit>(ForgeConfig.java:208) ~[IMBlocker_4.0.5+1.19.4.jar%23199!/:4.0.5] {re:classloading}
+        at io.github.reserveword.imblocker.IMBlocker.<init>(IMBlocker.java:18) ~[IMBlocker_4.0.5+1.19.4.jar%23199!/:4.0.5] {re:classloading}
+        ... 12 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.BookEditScreen
+        at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?] {}
+        at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+        at io.github.reserveword.imblocker.ForgeConfig$Client.<init>(ForgeConfig.java:141) ~[IMBlocker_4.0.5+1.19.4.jar%23199!/:4.0.5] {re:classloading}
+        at net.minecraftforge.common.ForgeConfigSpec$Builder.configure(ForgeConfigSpec.java:613) ~[forge-1.20.1-47.1.3-universal.jar%23224!/:?] {re:classloading}
+        at io.github.reserveword.imblocker.ForgeConfig.<clinit>(ForgeConfig.java:208) ~[IMBlocker_4.0.5+1.19.4.jar%23199!/:4.0.5] {re:classloading}
+        at io.github.reserveword.imblocker.IMBlocker.<init>(IMBlocker.java:18) ~[IMBlocker_4.0.5+1.19.4.jar%23199!/:4.0.5] {re:classloading}
+        ... 12 more
+[21:17:23] [main/FATAL] [ne.mi.fm.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 5 errors found
+Negative index in crash report handler (16/18)
+[21:17:23] [main/FATAL] [ne.mi.co.ForgeMod/]: Preparing crash report with UUID dbbc9006-2bd5-4ccb-957b-5cc767ead6cc
+[21:17:23] [main/FATAL] [ne.mi.se.lo.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2023-10-27_21.17.23-fml.txt
+[21:17:23] [main/FATAL] [ne.mi.co.ForgeMod/]: Preparing crash report with UUID eacc8064-40c6-4fcf-ae7a-16efbf5ba3ae
+---- Minecraft Crash Report ----
+// But it works on my machine.
+Time: 2023-10-27 21:17:23
+Description: Mod loading error has occurred
+java.lang.Exception: Mod Loading has failed
+        at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:60) ~[forge-1.20.1-47.1.3-universal.jar%23224!/:?] {re:classloading}
+        at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:39) ~[forge-1.20.1-47.1.3-universal.jar%23224!/:?] {re:classloading}
+        at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23219!/:?] {re:mixin,re:classloading,pl:mixin:A}
+        at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?] {}
+        at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {}
+        at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:?] {}
+        at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:?] {}
+        at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:?] {}
+        at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+-- Head --
+Thread: main
+Stacktrace:
+        at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:1.0] {}
+-- MOD skinlayers3d --
+Details:
+        Mod File: /home/container/mods/3dskinlayers-forge-1.5.4-mc1.20.1.jar
+        Failure message: 3dSkinLayers (skinlayers3d) has failed to load correctly
+                java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+        Mod Version: 1.5.4
+        Mod Issue URL: NOT PROVIDED
+        Exception message: java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+Stacktrace:
+        at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:1.0] {}
+        at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+        at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+        at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?] {re:mixin}
+        at java.lang.Class.privateGetDeclaredConstructors(Unknown Source) ~[?:?] {re:mixin}
+        at java.lang.Class.getConstructor0(Unknown Source) ~[?:?] {re:mixin}
+        at java.lang.Class.getDeclaredConstructor(Unknown Source) ~[?:?] {re:mixin}
+        at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.1.3.jar%23221!/:?] {}
+        at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {}
+-- MOD itemphysiclite --
+Details:
+        Caused by 0: java.lang.ExceptionInInitializerError
+                at jdk.internal.misc.Unsafe.ensureClassInitialized0(Native Method) ~[?:?] {}
+                at jdk.internal.misc.Unsafe.ensureClassInitialized(Unknown Source) ~[?:?] {}
+                at jdk.internal.reflect.MethodHandleAccessorFactory.ensureClassInitialized(Unknown Source) ~[?:?] {}
+                at jdk.internal.reflect.MethodHandleAccessorFactory.newConstructorAccessor(Unknown Source) ~[?:?] {}
+                at jdk.internal.reflect.ReflectionFactory.newConstructorAccessor(Unknown Source) ~[?:?] {}
+                at java.lang.reflect.Constructor.acquireConstructorAccessor(Unknown Source) ~[?:?] {}
+                at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?] {}
+                at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?] {}
+                at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.1.3.jar%23221!/:?] {}
+                at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+                at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {}
+        Mod File: /home/container/mods/[物品物理掉落] ItemPhysicLite_FORGE_v1.6.1_mc1.20.jar
+        Failure message: ItemPhysicLite (itemphysiclite) has failed to load correctly
+                java.lang.ExceptionInInitializerError: null
+        Mod Version: 1.6.1
+        Mod Issue URL: https://github.com/CreativeMD/ItemPhysicLite/issues
+        Exception message: java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+Stacktrace:
+        at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:1.0] {}
+        at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+        at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+        at team.creative.itemphysiclite.ItemPhysicLite.<clinit>(ItemPhysicLite.java:39) ~[%5B物品物理掉落%5D%20ItemPhysicLite_FORGE_v1.6.1_mc1.20.jar%23169!/:1.6.1] {re:classloading}
+        at jdk.internal.misc.Unsafe.ensureClassInitialized0(Native Method) ~[?:?] {}
+        at jdk.internal.misc.Unsafe.ensureClassInitialized(Unknown Source) ~[?:?] {}
+        at jdk.internal.reflect.MethodHandleAccessorFactory.ensureClassInitialized(Unknown Source) ~[?:?] {}
+        at jdk.internal.reflect.MethodHandleAccessorFactory.newConstructorAccessor(Unknown Source) ~[?:?] {}
+        at jdk.internal.reflect.ReflectionFactory.newConstructorAccessor(Unknown Source) ~[?:?] {}
+        at java.lang.reflect.Constructor.acquireConstructorAccessor(Unknown Source) ~[?:?] {}
+        at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?] {}
+        at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?] {}
+        at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.1.3.jar%23221!/:?] {}
+        at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {}
+-- MOD notenoughanimations --
+Details:
+        Mod File: /home/container/mods/[更多动画] notenoughanimations-forge-1.6.4-mc1.20.jar
+        Failure message: NotEnoughAnimations Mod (notenoughanimations) has failed to load correctly
+                java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+        Mod Version: 1.6.4
+        Mod Issue URL: https://github.com/tr7zw/NotEnoughAnimations/issues
+        Exception message: java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+Stacktrace:
+        at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:1.0] {}
+        at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+        at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+        at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?] {re:mixin}
+        at java.lang.Class.privateGetDeclaredConstructors(Unknown Source) ~[?:?] {re:mixin}
+        at java.lang.Class.getConstructor0(Unknown Source) ~[?:?] {re:mixin}
+        at java.lang.Class.getDeclaredConstructor(Unknown Source) ~[?:?] {re:mixin}
+        at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.1.3.jar%23221!/:?] {}
+        at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {}
+-- MOD oculus --
+Details:
+        Mod File: /home/container/mods/oculus-mc1.20-1.6.4.jar
+        Failure message: Oculus (oculus) has failed to load correctly
+                java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+        Mod Version: 1.6.4
+        Mod Issue URL: NOT PROVIDED
+        Exception message: java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+Stacktrace:
+        at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:1.0] {}
+        at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+        at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+        at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+        at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?] {re:mixin}
+        at java.lang.Class.privateGetDeclaredConstructors(Unknown Source) ~[?:?] {re:mixin}
+        at java.lang.Class.getConstructor0(Unknown Source) ~[?:?] {re:mixin}
+        at java.lang.Class.getDeclaredConstructor(Unknown Source) ~[?:?] {re:mixin}
+        at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.1.3.jar%23221!/:?] {}
+        at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {}
+-- MOD imblocker --
+Details:
+        Caused by 0: java.lang.reflect.InvocationTargetException
+                at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source) ~[?:?] {}
+                at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?] {}
+                at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?] {}
+                at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.1.3.jar%23221!/:?] {}
+                at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+                at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {}
+        Caused by 1: java.lang.NoClassDefFoundError: net/minecraft/client/gui/screens/inventory/BookEditScreen
+                at io.github.reserveword.imblocker.ForgeConfig$Client.<init>(ForgeConfig.java:141) ~[IMBlocker_4.0.5+1.19.4.jar%23199!/:4.0.5] {re:classloading}
+                at net.minecraftforge.common.ForgeConfigSpec$Builder.configure(ForgeConfigSpec.java:613) ~[forge-1.20.1-47.1.3-universal.jar%23224!/:?] {re:classloading}
+                at io.github.reserveword.imblocker.ForgeConfig.<clinit>(ForgeConfig.java:208) ~[IMBlocker_4.0.5+1.19.4.jar%23199!/:4.0.5] {re:classloading}
+                at io.github.reserveword.imblocker.IMBlocker.<init>(IMBlocker.java:18) ~[IMBlocker_4.0.5+1.19.4.jar%23199!/:4.0.5] {re:classloading}
+                at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source) ~[?:?] {}
+                at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?] {}
+                at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?] {}
+                at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.1.3.jar%23221!/:?] {}
+                at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+                at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {}
+                at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {}
+        Mod File: /home/container/mods/IMBlocker_4.0.5+1.19.4.jar
+        Failure message: IMBlocker (imblocker) has failed to load correctly
+                java.lang.reflect.InvocationTargetException: null
+        Mod Version: 4.0.5
+        Mod Issue URL: https://github.com/reserveword/IMBlocker/issues
+        Exception message: java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.BookEditScreen
+Stacktrace:
+        at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?] {}
+        at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+        at io.github.reserveword.imblocker.ForgeConfig$Client.<init>(ForgeConfig.java:141) ~[IMBlocker_4.0.5+1.19.4.jar%23199!/:4.0.5] {re:classloading}
+        at net.minecraftforge.common.ForgeConfigSpec$Builder.configure(ForgeConfigSpec.java:613) ~[forge-1.20.1-47.1.3-universal.jar%23224!/:?] {re:classloading}
+        at io.github.reserveword.imblocker.ForgeConfig.<clinit>(ForgeConfig.java:208) ~[IMBlocker_4.0.5+1.19.4.jar%23199!/:4.0.5] {re:classloading}
+        at io.github.reserveword.imblocker.IMBlocker.<init>(IMBlocker.java:18) ~[IMBlocker_4.0.5+1.19.4.jar%23199!/:4.0.5] {re:classloading}
+        at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source) ~[?:?] {}
+        at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?] {}
+        at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?] {}
+        at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.20.1-47.1.3.jar%23221!/:?] {}
+        at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {}
+        at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {}
+-- System Details --
+Details:
+        Minecraft Version: 1.20.1
+        Minecraft Version ID: 1.20.1
+        Operating System: Linux (amd64) version 5.15.0-78-generic
+        Java Version: 18.0.2.1, Azul Systems, Inc.
+        Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
+        Memory: 389554176 bytes (371 MiB) / 838860800 bytes (800 MiB) up to 8589934592 bytes (8192 MiB)
+        CPUs: 4
+        Processor Vendor: GenuineIntel
+        Processor Name: Intel(R) Xeon(R) Gold 6146 CPU @ 3.20GHz
+        Identifier: Intel64 Family 6 Model 85 Stepping 4
+        Microarchitecture: Skylake (Server)
+        Frequency (GHz): 3.20
+        Number of physical packages: 2
+        Number of physical CPUs: 24
+        Number of logical CPUs: 48
+        Graphics card #0 name: unknown
+        Graphics card #0 vendor: unknown
+        Graphics card #0 VRAM (MB): 0.00
+        Graphics card #0 deviceId: unknown
+        Graphics card #0 versionInfo: unknown
+        Virtual memory max (MB): 145140.41
+        Virtual memory used (MB): 208819.22
+        Swap memory total (MB): 16383.99
+        Swap memory used (MB): 181.50
+        JVM Flags: 2 total; -Xms128M -Xmx8192M
+        ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+        ModLauncher launch target: forgeserver
+        ModLauncher naming: srg
+        ModLauncher services: 
+                mixin-0.8.5.jar mixin PLUGINSERVICE 
+                eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+                fmlloader-1.20.1-47.1.3.jar slf4jfixer PLUGINSERVICE 
+                fmlloader-1.20.1-47.1.3.jar object_holder_definalize PLUGINSERVICE 
+                fmlloader-1.20.1-47.1.3.jar runtime_enum_extender PLUGINSERVICE 
+                fmlloader-1.20.1-47.1.3.jar capability_token_subclass PLUGINSERVICE 
+                accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+                fmlloader-1.20.1-47.1.3.jar runtimedistcleaner PLUGINSERVICE 
+                modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+                modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+        FML Language Providers: 
+                minecraft@1.0
+                javafml@null
+                kotlinforforge@4.3.0
+                lowcodefml@null
+        Mod List: 
+                fallingtrees-1.19.3-1.20.1+0.5.3-beta.jar         |Panda's Falling Trees         |fallingtrees                  |1.19.3-1.20.1+0.5.3-|COMMON_SET|Manifest: NOSIGNATURE
+                Kiwi-1.20.1-forge-11.0.0.jar                      |Kiwi Library                  |kiwi                          |11.0.0              |COMMON_SET|Manifest: NOSIGNATURE
+                geckolib-forge-1.20.1-4.2.1.jar                   |GeckoLib 4                    |geckolib                      |4.2.1               |COMMON_SET|Manifest: NOSIGNATURE
+                sophisticatedstorage-1.20.1-0.8.43.558.jar        |Sophisticated Storage         |sophisticatedstorage          |1.20.1-0.8.43.558   |COMMON_SET|Manifest: NOSIGNATURE
+                jei-1.20.1-forge-15.2.0.23.jar                    |Just Enough Items             |jei                           |15.2.0.23           |COMMON_SET|Manifest: NOSIGNATURE
+                luggage-1.20-1.6.2.jar                            |Luggage                       |luggage                       |1.20-1.6.2          |COMMON_SET|Manifest: NOSIGNATURE
+                immersive_aircraft-0.5.1+1.20.1-forge.jar         |Immersive Aircraft            |immersive_aircraft            |0.5.1+1.20.1        |COMMON_SET|Manifest: NOSIGNATURE
+                sophisticatedcore-1.20.1-0.5.81.378.jar           |Sophisticated Core            |sophisticatedcore             |1.20.1-0.5.81.378   |COMMON_SET|Manifest: NOSIGNATURE
+                [铷] rubidium-0.6.5.jar                            |Rubidium                      |rubidium                      |0.6.5               |COMMON_SET|Manifest: NOSIGNATURE
+                waystones-forge-1.20-14.0.1.jar                   |Waystones                     |waystones                     |14.0.1              |COMMON_SET|Manifest: NOSIGNATURE
+                [叶间穿行 🌳] PassableFoliage-1.20.1-forge-8.0.0.jar  |Passable Foliage              |passablefoliage               |8.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+                [Xaero的世界地图] XaerosWorldMap_1.30.6_Forge_1.20.jar |Xaero's World Map             |xaeroworldmap                 |1.30.6              |COMMON_SET|Manifest: NOSIGNATURE
+                citadel-2.4.2-1.20.1.jar                          |Citadel                       |citadel                       |2.4.2               |COMMON_SET|Manifest: NOSIGNATURE
+                [Alex 的生物] alexsmobs-1.22.5.jar                   |Alex's Mobs                   |alexsmobs                     |1.22.5              |COMMON_SET|Manifest: NOSIGNATURE
+                mixinextras-forge-0.2.0-beta.7.jar                |MixinExtras                   |mixinextras                   |0.2.0-beta.7        |COMMON_SET|Manifest: NOSIGNATURE
+                sophisticatedbackpacks-1.20.1-3.18.56.890.jar     |Sophisticated Backpacks       |sophisticatedbackpacks        |1.20.1-3.18.56.890  |COMMON_SET|Manifest: NOSIGNATURE
+                [遗物] relics-1.20.1-0.4.8.3.jar                    |Relics                        |relics                        |0.4.8.3             |COMMON_SET|Manifest: NOSIGNATURE
+                [失落废墟] Rex's-AdditionalStructures-1.20.x-(v.4.1.2)|Additional Structures         |additionalstructures          |4.1.2               |COMMON_SET|Manifest: NOSIGNATURE
+                balm-forge-1.20-7.0.4.jar                         |Balm                          |balm                          |7.0.4               |COMMON_SET|Manifest: NOSIGNATURE
+                extra_details-0.1.1+1.20-1.20.1-beta.jar          |Panda's Extra Details         |extra_details                 |0.1.1+1.20-1.20.1-be|COMMON_SET|Manifest: NOSIGNATURE
+                cloth-config-11.1.106-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.106            |COMMON_SET|Manifest: NOSIGNATURE
+                3dskinlayers-forge-1.5.4-mc1.20.1.jar             |3dSkinLayers                  |skinlayers3d                  |1.5.4               |ERROR     |Manifest: NOSIGNATURE
+                forge-1.20.1-47.1.3-universal.jar                 |Forge                         |forge                         |47.1.3              |COMMON_SET|Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+                ctov-3.3.2.jar                                    |ChoiceTheorem's Overhauled Vil|ctov                          |3.3.2               |COMMON_SET|Manifest: NOSIGNATURE
+                konkrete_forge_1.6.1-2_MC_1.20.jar                |Konkrete                      |konkrete                      |1.6.1               |COMMON_SET|Manifest: NOSIGNATURE
+                geophilic-v2.0.0-mc1.20u1.20.1.jar                |Geophilic                     |geophilic                     |2.0.0-mc1.20u1.20.1 |COMMON_SET|Manifest: NOSIGNATURE
+                server-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |COMMON_SET|Manifest: NOSIGNATURE
+                [农夫乐事] FarmersDelight-1.20.1-1.2.2a.jar           |Farmer's Delight              |farmersdelight                |1.20.1-1.2.2a       |COMMON_SET|Manifest: NOSIGNATURE
+                libIPN-forge-1.20-3.0.2.jar                       |libIPN                        |libipn                        |3.0.2               |COMMON_SET|Manifest: NOSIGNATURE
+                [结构变体] repurposed_structures-7.0.0+1.20-forge.jar |Repurposed Structures         |repurposed_structures         |7.0.0+1.20-forge    |COMMON_SET|Manifest: NOSIGNATURE
+                TerraBlender-forge-1.20.1-3.0.0.169.jar           |TerraBlender                  |terrablender                  |3.0.0.169           |COMMON_SET|Manifest: NOSIGNATURE
+                moonlight-1.20-2.5.12-forge.jar                   |Moonlight Library             |moonlight                     |1.20-2.5.12         |COMMON_SET|Manifest: NOSIGNATURE
+                AmbientSounds_FORGE_v5.2.19_mc1.20.jar            |AmbientSounds                 |ambientsounds                 |5.2.19              |COMMON_SET|Manifest: NOSIGNATURE
+                [物品物理掉落] ItemPhysicLite_FORGE_v1.6.1_mc1.20.jar   |ItemPhysicLite                |itemphysiclite                |1.6.1               |ERROR     |Manifest: NOSIGNATURE
+                [鼠标手势] MouseTweaks-forge-mc1.20-2.25.jar          |Mouse Tweaks                  |mousetweaks                   |2.25                |COMMON_SET|Manifest: NOSIGNATURE
+                Female-Gender-Mod-forge-1.20.1-3.0.1.jar          |Wildfire's Female Gender Mod  |wildfire_gender               |1.20.1-3.0.1        |COMMON_SET|Manifest: NOSIGNATURE
+                [超多生物群系] BiomesOPlenty-1.20.1-18.0.0.592.jar      |Biomes O' Plenty              |biomesoplenty                 |18.0.0.592          |COMMON_SET|Manifest: NOSIGNATURE
+                Jade-1.20-forge-11.3.0.jar                        |Jade                          |jade                          |11.3.0              |COMMON_SET|Manifest: NOSIGNATURE
+                CreativeCore_FORGE_v2.10.31_mc1.20.1.jar          |CreativeCore                  |creativecore                  |2.10.31             |COMMON_SET|Manifest: NOSIGNATURE
+                resourcefulconfig-forge-1.20-2.0.0.jar            |Resourcefulconfig             |resourcefulconfig             |2.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+                kffmod-4.3.0.jar                                  |Kotlin For Forge              |kotlinforforge                |4.3.0               |COMMON_SET|Manifest: NOSIGNATURE
+                curios-forge-5.2.0-beta.3+1.20.1.jar              |Curios API                    |curios                        |5.2.0-beta.3+1.20.1 |COMMON_SET|Manifest: NOSIGNATURE
+                [更多动画] notenoughanimations-forge-1.6.4-mc1.20.jar |NotEnoughAnimations Mod       |notenoughanimations           |1.6.4               |ERROR     |Manifest: NOSIGNATURE
+                flywheel-forge-1.20-0.6.9-4.jar                   |Flywheel                      |flywheel                      |0.6.9-4             |COMMON_SET|Manifest: NOSIGNATURE
+                create-1.20.1-0.5.1.d.jar                         |Create                        |create                        |0.5.1.d             |COMMON_SET|Manifest: NOSIGNATURE
+                [帕秋莉手册] Patchouli-1.20.1-81-FORGE.jar             |Patchouli                     |patchouli                     |1.20.1-81-FORGE     |COMMON_SET|Manifest: NOSIGNATURE
+                oculus-mc1.20-1.6.4.jar                           |Oculus                        |oculus                        |1.6.4               |ERROR     |Manifest: NOSIGNATURE
+                [Xaero的小地图] Xaeros_Minimap_23.5.0_Forge_1.20.jar  |Xaero's Minimap               |xaerominimap                  |23.5.0              |COMMON_SET|Manifest: NOSIGNATURE
+                Croptopia-1.20.1-FORGE-2.3.2.jar                  |Croptopia                     |croptopia                     |2.3.2               |COMMON_SET|Manifest: NOSIGNATURE
+                ctov-croptopia-compat-2.0.jar                     |CTOV - Croptopia compat       |mr_ctov_croptopiacompat       |2.0                 |COMMON_SET|Manifest: NOSIGNATURE
+                [高级下界合金] advancednetherite-forge-2.0.2-1.20.1.jar |Advanced Netherite            |advancednetherite             |2.0.2               |COMMON_SET|Manifest: NOSIGNATURE
+                invhud.forge.1.20.1-3.4.15.jar                    |Inventory HUD+(Forge edition) |inventoryhud                  |3.4.15              |COMMON_SET|Manifest: NOSIGNATURE
+                fancymenu_forge_2.14.9_MC_1.20.1.jar              |FancyMenu                     |fancymenu                     |2.14.9              |COMMON_SET|Manifest: NOSIGNATURE
+                resourcefullib-forge-1.20-2.0.6.jar               |Resourceful Lib               |resourcefullib                |2.0.6               |COMMON_SET|Manifest: NOSIGNATURE
+                [一键背包整理Next] InventoryProfilesNext-forge-1.20-1.10|Inventory Profiles Next       |inventoryprofilesnext         |1.10.5              |COMMON_SET|Manifest: NOSIGNATURE
+                architectury-9.1.10-forge.jar                     |Architectury                  |architectury                  |9.1.10              |COMMON_SET|Manifest: NOSIGNATURE
+                [苹果皮] appleskin-forge-mc1.20.1-2.5.0.jar          |AppleSkin                     |appleskin                     |2.5.0+mc1.20.1      |COMMON_SET|Manifest: NOSIGNATURE
+                [苦力怕改革／苦力怕革新] creeperoverhaul-3.0.1-forge.jar     |Creeper Overhaul              |creeperoverhaul               |3.0.1               |COMMON_SET|Manifest: NOSIGNATURE
+                [铁氧体磁芯] ferritecore-6.0.0-forge.jar               |Ferrite Core                  |ferritecore                   |6.0.0               |COMMON_SET|Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+                [高级指南针] advancedcompass.forge.1.20.1-1.2.15.jar   |Advanced Compass              |advancedcompass               |1.2.15              |COMMON_SET|Manifest: NOSIGNATURE
+                Towns-and-Towers-1.11-Fabric+Forge.jar            |Towns and Towers              |t_and_t                       |0.0NONE             |COMMON_SET|Manifest: NOSIGNATURE
+                IMBlocker_4.0.5+1.19.4.jar                        |IMBlocker                     |imblocker                     |4.0.5               |ERROR     |Manifest: NOSIGNATURE
+                cristellib-forge-1.1.0.jar                        |Cristel Lib                   |cristellib                    |1.1.0               |COMMON_SET|Manifest: NOSIGNATURE
+                BetterAdvancements-1.20.1-0.3.2.161.jar           |Better Advancements           |betteradvancements            |0.3.2.161           |COMMON_SET|Manifest: NOSIGNATURE
+        Crash Report UUID: eacc8064-40c6-4fcf-ae7a-16efbf5ba3ae
+        FML: 47.1
+        Forge: net.minecraftforge:47.1.3[21:17:23] [main/ERROR] [minecraft/Main]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+        3dSkinLayers (skinlayers3d) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER,
+        ItemPhysicLite (itemphysiclite) has failed to load correctly
+§7java.lang.ExceptionInInitializerError: null,
+        NotEnoughAnimations Mod (notenoughanimations) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER,
+        Oculus (oculus) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER,
+        IMBlocker (imblocker) has failed to load correctly
+§7java.lang.reflect.InvocationTargetException: null
+]
+        at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:246) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at java.util.Optional.ifPresent(Unknown Source) ~[?:?] {}
+        at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at java.lang.Iterable.forEach(Unknown Source) ~[?:?] {re:mixin}
+        at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.1.3.jar%23220!/:?] {}
+        at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.20.1-47.1.3-universal.jar%23224!/:?] {re:classloading}
+        at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23219!/:?] {re:mixin,re:classloading,pl:mixin:A}
+        at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?] {}
+        at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {}
+        at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:?] {}
+        at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:?] {}
+        at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.1.3.jar%2369!/:?] {}
+        at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+        at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+[GameWorld]: 服务器状态: 离线...
+[GameWorld]: ---------- 检测到服务器意外奔溃的情况，以下是奔溃相关信息! ----------
+[GameWorld]: 请查看崩溃前输出的日志信息。
+[GameWorld]: 是否为内存溢出导致的奔溃: 否
+[GameWorld]: ---------- 检测到服务器意外奔溃的情况，以下是奔溃相关信息! ----------
+[GameWorld]: 重启间隔不足 60 秒，正在取消崩溃后的自动重启。
